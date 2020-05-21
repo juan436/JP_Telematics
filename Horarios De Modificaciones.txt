@@ -1,0 +1,5 @@
+Auditorias - Sabados y Domingos
+Zonas y Vendedores - Lunes y Martes
+Clientes y Tipos de Persona - Miercoles y Jueves
+Productos y Ventas - Viernes
+Generales - Todos los días
