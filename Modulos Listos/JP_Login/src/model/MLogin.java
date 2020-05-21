@@ -10,6 +10,7 @@ public class MLogin {
 	private String newCon;
 	private boolean borrado;
 	private String id_usuario;
+	private String nombre;
 	
 	public String getUsuario() {
 		return usuario;
@@ -65,6 +66,14 @@ public class MLogin {
 
 	public void setId_pregunta(String string) {
 		this.id_usuario = string;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	

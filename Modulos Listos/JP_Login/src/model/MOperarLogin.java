@@ -26,6 +26,7 @@ public class MOperarLogin {
 			if (rs.first()) {
 				rs.beforeFirst();
 				rs.next();
+				login.setNombre(rs.getString("nombre"));
 
 			} else {
 				JOptionPane.showMessageDialog(null, "El Usuario o contraseña no existe en la Base de Datos.");

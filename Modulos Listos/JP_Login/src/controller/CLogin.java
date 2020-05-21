@@ -50,7 +50,7 @@ public class CLogin implements ActionListener {
 					}
 					if (m != null) {
 						correcto = true;
-						JOptionPane.showMessageDialog(null, "BIENVENIDO A JP_TELEMATICS " + user + "!");
+						JOptionPane.showMessageDialog(null, "BIENVENIDO A JP_TELEMATICS " + m.getNombre() + "!");
 						v.cerrar();
 					}
 				}
